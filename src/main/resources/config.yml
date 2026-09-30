@@ -1,0 +1,27 @@
+# FluxCopy Configuration
+# Just do copy while Flexing, Only with Flux
+
+# Default port if not specified
+default-port: 25565
+
+# Connection timeout in milliseconds
+connection-timeout: 5000
+
+# Read timeout in milliseconds
+read-timeout: 5000
+
+# Messages
+messages:
+  prefix: "§8[§bFluxCopy§8] §r"
+  pinging: "§7Pinging §f{server}§7..."
+  ping-success: "§aSuccessfully connected to §f{server}"
+  ping-failure: "§cFailed to ping server: §f{error}"
+  usage: "§cUsage: /copy <server-ip> [port]"
+  example: "§7Example: /copy play.applemc 25565"
+  not-a-player: "§cOnly players can use this command."
+  invalid-port: "§cInvalid port number."
+  session-expired: "§cSession expired. Please run /copy again."
+  no-changes: "§8No changes applied."
+  motd-updated: "§aMOTD updated successfully"
+  icon-saved: "§aServer icon saved"
+  no-permission: "§cYou don't have permission to use this command."

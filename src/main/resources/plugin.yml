@@ -1,0 +1,20 @@
+name: FluxCopy
+main: dev.fluxcopy.fluxcopy.FluxCopy
+version: 1.0.0
+api-version: '1.21'
+author: Flux
+description: Just do copy while Flexing, Only with Flux
+website: https://fluxmc.dev
+
+commands:
+  copy:
+    description: Copy MOTD and icon from another server
+    usage: /<command> <server-ip> [port]
+    aliases: [servercopy, scopy]
+    permission: fluxcopy.copy
+    permission-message: §cYou don't have permission to use this command.
+
+permissions:
+  fluxcopy.copy:
+    description: Allows using /copy command
+    default: op

@@ -1,0 +1,7 @@
+dev\fluxcopy\fluxcopy\gui\CopyConfirmGUI.class
+dev\fluxcopy\fluxcopy\commands\CopyCommand$CopySession.class
+dev\fluxcopy\fluxcopy\commands\CopyCommand$ServerPingCallback.class
+dev\fluxcopy\fluxcopy\commands\CopyCommand.class
+dev\fluxcopy\fluxcopy\utils\ServerPinger$PingCallback.class
+dev\fluxcopy\fluxcopy\FluxCopy.class
+dev\fluxcopy\fluxcopy\utils\ServerPinger.class
